@@ -29,7 +29,6 @@ h2 {
 
 .scroll-target {
   content: " ";
-  border: red 2px bold;
   position: relative;
   top: -95px
 }
@@ -76,6 +75,10 @@ h2 {
 #hero-title {
   color:white;
   text-shadow: 2px 2px 5px rgb(55, 58, 64)
+}
+
+figcaption {
+  padding-top: 20px;
 }
 
 /* Mission section */
