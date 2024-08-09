@@ -55,14 +55,19 @@ h2 {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  #hero-section {
+    background-attachment: scroll;
+  }
+}
+
 #profile-img {
   position: relative;
-  width: 30vw;
-  height: 30vw;
+  width: 30vh;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   overflow: hidden;
   border: 5px solid #686D76;
-  /* padding-top: auto; */
 }
 
 #profile-img img{
@@ -105,6 +110,10 @@ figcaption {
   overflow: hidden;
   object-fit: cover;
   object-position: center;
+}
+
+#shell-screen {
+  object-position: left top;
 }
 
 .carousel-caption {
